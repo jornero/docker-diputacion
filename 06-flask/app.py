@@ -5,9 +5,5 @@ app = Flask(__name__)
 def hello_world():
     return 'Hola, soy Flask dentro de un contenedor'
 
-# @app.route('/stats')
-# def stats():
-#     return 'Estas son las estadisticas'
-
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
